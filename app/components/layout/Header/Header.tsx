@@ -1,5 +1,9 @@
-import { HeaderStyles } from '@components';
+import { HeaderStyles, Logo } from '@components';
 
 export default function Header() {
-    return <header className={HeaderStyles.Header}></header>;
+    return (
+        <header className={HeaderStyles.Header}>
+            <Logo />
+        </header>
+    );
 }
