@@ -1,9 +1,19 @@
-import { Footer, Header, Main } from '@components';
+import { Footer, Header, Main, NavigationItem } from '@components';
 
 export default function Landing() {
     return (
         <>
-            <Header />
+            <Header>
+                <NavigationItem
+                    url=''
+                    name='Landing'
+                    active
+                />
+                <NavigationItem
+                    url=''
+                    name='Docs'
+                />
+            </Header>
             <Main />
             <Footer />
         </>

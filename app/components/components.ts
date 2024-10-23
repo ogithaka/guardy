@@ -9,3 +9,7 @@ export { default as FooterStyles } from '../components/layout/Footer/Footer.modu
 // widgets
 export { default as Logo } from './widgets/Logo/Logo';
 export { default as LogoStyles } from './widgets/Logo/Logo.module.css';
+export { default as Navigation } from './widgets/Navigation/Navigation';
+export { default as NavigationStyles } from './widgets/Navigation/Navigation.module.css';
+export { default as NavigationItem } from './widgets/NavigationItem/NavigationItem';
+export { default as NavigationItemStyles } from './widgets/NavigationItem/NavigationItem.module.css';

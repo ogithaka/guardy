@@ -1,4 +1,18 @@
 import './globals.css';
+import localFont from 'next/font/local';
+
+const AlbertSans = localFont({
+    src: [
+        {
+            path: '../public/fonts/AlbertSans.ttf',
+            style: 'normal',
+        },
+        {
+            path: '../public/fonts/AlbertSansItalic.ttf',
+            style: 'italic',
+        },
+    ],
+});
 
 export default function RootLayout({
     children,
@@ -7,7 +21,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang='en'>
-            <body>{children}</body>
+            <body className={AlbertSans.className}>{children}</body>
         </html>
     );
 }
