@@ -12,6 +12,9 @@ declare global {
         name: string;
         active?: boolean;
     }
+    interface MainProps {
+        children: ReactNode;
+    }
 }
 
 export {};

@@ -1,4 +1,4 @@
-import { Footer, Header, Main, NavigationItem } from '@components';
+import { Footer, Header, Hero, Main, NavigationItem } from '@components';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -19,7 +19,9 @@ export default function Landing() {
                     name='Docs'
                 />
             </Header>
-            <Main />
+            <Main>
+                <Hero />
+            </Main>
             <Footer />
         </>
     );
