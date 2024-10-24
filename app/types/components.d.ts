@@ -15,6 +15,11 @@ declare global {
     interface MainProps {
         children: ReactNode;
     }
+    interface ButtonProps {
+        url: string;
+        name: string;
+        outline?: boolean;
+    }
 }
 
 export {};

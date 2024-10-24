@@ -13,6 +13,8 @@ export { default as Navigation } from './widgets/Navigation/Navigation';
 export { default as NavigationStyles } from './widgets/Navigation/Navigation.module.css';
 export { default as NavigationItem } from './widgets/NavigationItem/NavigationItem';
 export { default as NavigationItemStyles } from './widgets/NavigationItem/NavigationItem.module.css';
+export { default as Button } from './widgets/Button/Button';
+export { default as ButtonStyles } from './widgets/Button/Button.module.css';
 
 // sections landing
 export { default as Hero } from './sections/landing/Hero/Hero';

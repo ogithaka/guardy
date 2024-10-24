@@ -1,4 +1,4 @@
-import { HeroStyles } from '@components';
+import { Button, HeroStyles } from '@components';
 import Image from 'next/image';
 
 export default function Hero() {
@@ -23,6 +23,12 @@ export default function Hero() {
                     exploration of Next.js, built to showcase its full potential
                     in real-world applications.
                 </p>
+                <div className={HeroStyles.HeroButtons}>
+                    <Button
+                        name='GitHub'
+                        url=''
+                    />
+                </div>
             </div>
         </section>
     );
