@@ -1,18 +1,5 @@
 import './globals.css';
-import localFont from 'next/font/local';
-
-const AlbertSans = localFont({
-    src: [
-        {
-            path: '../public/fonts/AlbertSans.ttf',
-            style: 'normal',
-        },
-        {
-            path: '../public/fonts/AlbertSansItalic.ttf',
-            style: 'italic',
-        },
-    ],
-});
+import { AlbertSans } from '@fonts';
 
 export default function RootLayout({
     children,

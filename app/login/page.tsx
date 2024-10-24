@@ -3,6 +3,7 @@ import {
     Footer,
     Header,
     Hero,
+    LoginSection,
     Main,
     NavigationItem,
 } from '@components';
@@ -12,26 +13,34 @@ export const metadata: Metadata = {
     title: 'Guardy',
 };
 
-export default function Landing() {
+export default function Login() {
     return (
         <>
             <Header>
                 <NavigationItem
                     url=''
                     name='Landing'
-                    active
                 />
                 <NavigationItem
                     url=''
                     name='Docs'
                 />
+                <NavigationItem
+                    url=''
+                    name='Login'
+                    active
+                />
+                <NavigationItem
+                    url=''
+                    name='Reset'
+                />
                 <Button
-                    name='Account'
+                    name='Register'
                     url='/login'
                 />
             </Header>
             <Main>
-                <Hero />
+                <LoginSection />
             </Main>
             <Footer />
         </>

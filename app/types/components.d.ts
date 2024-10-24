@@ -20,6 +20,16 @@ declare global {
         name: string;
         outline?: boolean;
     }
+    interface FormProps {
+        children: ReactNode;
+    }
+    interface InputFieldProps {
+        id?: string;
+        label?: string;
+        type: string;
+        placeholder?: string;
+        value?: string;
+    }
 }
 
 export {};

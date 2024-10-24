@@ -15,7 +15,15 @@ export { default as NavigationItem } from './widgets/NavigationItem/NavigationIt
 export { default as NavigationItemStyles } from './widgets/NavigationItem/NavigationItem.module.css';
 export { default as Button } from './widgets/Button/Button';
 export { default as ButtonStyles } from './widgets/Button/Button.module.css';
+export { default as Form } from './widgets/Form/Form';
+export { default as FormStyles } from './widgets/Form/Form.module.css';
+export { default as InputField } from './widgets/InputField/InputField';
+export { default as InputFieldStyles } from './widgets/InputField/InputField.module.css';
 
 // sections landing
 export { default as Hero } from './sections/landing/Hero/Hero';
 export { default as HeroStyles } from './sections/landing/Hero/Hero.module.css';
+
+// sections login
+export { default as LoginSection } from './sections/login/login_section/LoginSection';
+export { default as LoginSectionStyles } from './sections/login/login_section/LoginSection.module.css';
