@@ -15,11 +15,13 @@ export default function LoginSection() {
                     label='Email'
                     type='email'
                     placeholder='e.g guardy@gmail.com'
+                    id='email'
                 />
                 <InputField
                     label='Password'
                     type='password'
                     placeholder='e.g dR87435'
+                    id='password'
                 />
                 <InputField
                     type='submit'

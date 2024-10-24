@@ -27,3 +27,7 @@ export { default as HeroStyles } from './sections/landing/Hero/Hero.module.css';
 // sections login
 export { default as LoginSection } from './sections/login/login_section/LoginSection';
 export { default as LoginSectionStyles } from './sections/login/login_section/LoginSection.module.css';
+
+// sections register
+export { default as RegisterSection } from './sections/register/register_section/RegisterSection';
+export { default as RegisterSectionStyles } from './sections/register/register_section/RegisterSection.module.css';

@@ -2,10 +2,10 @@ import {
     Button,
     Footer,
     Header,
-    Hero,
     LoginSection,
     Main,
     NavigationItem,
+    RegisterSection,
 } from '@components';
 import type { Metadata } from 'next';
 
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: 'Guardy',
 };
 
-export default function Login() {
+export default function Register() {
     return (
         <>
             <Header>
@@ -28,11 +28,11 @@ export default function Login() {
                 <NavigationItem
                     url=''
                     name='Login'
-                    active
                 />
                 <NavigationItem
                     url=''
                     name='Register'
+                    active
                 />
                 <Button
                     name='Reset'
@@ -40,7 +40,7 @@ export default function Login() {
                 />
             </Header>
             <Main>
-                <LoginSection />
+                <RegisterSection />
             </Main>
             <Footer />
         </>
