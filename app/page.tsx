@@ -1,8 +1,15 @@
-import { Footer, Header, Hero, Main, NavigationItem } from '@components';
+import {
+    Button,
+    Footer,
+    Header,
+    Hero,
+    Main,
+    NavigationItem,
+} from '@components';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Landing',
+    title: 'Guardy',
 };
 
 export default function Landing() {
@@ -17,6 +24,10 @@ export default function Landing() {
                 <NavigationItem
                     url=''
                     name='Docs'
+                />
+                <Button
+                    name='Account'
+                    url=''
                 />
             </Header>
             <Main>
