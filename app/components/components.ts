@@ -31,3 +31,7 @@ export { default as LoginSectionStyles } from './sections/login/login_section/Lo
 // sections register
 export { default as RegisterSection } from './sections/register/register_section/RegisterSection';
 export { default as RegisterSectionStyles } from './sections/register/register_section/RegisterSection.module.css';
+
+// sections confirm_password
+export { default as ConfirmEmailSection } from './sections/confirm_email/confirm_email/ConfirmEmailSection';
+export { default as ConfirmEmailSectionStyles } from './sections/confirm_email/confirm_email/ConfirmEmailSection.module.css';

@@ -32,3 +32,12 @@
 .InputField input[type='submit']:hover {
     cursor: pointer;
 }
+
+.InputField input:disabled {
+    background-color: black;
+    color: white;
+}
+
+.InputField input:disabled:hover {
+    cursor: none;
+}

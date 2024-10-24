@@ -7,6 +7,7 @@ export default function InputField({
     type,
     placeholder,
     value,
+    disabled,
 }: InputFieldProps) {
     return (
         <div className={InputFieldStyles.InputField}>
@@ -17,6 +18,7 @@ export default function InputField({
                 placeholder={placeholder}
                 value={value}
                 className={AlbertSans.className}
+                disabled={disabled}
             />
         </div>
     );

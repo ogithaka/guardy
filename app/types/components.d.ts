@@ -29,6 +29,7 @@ declare global {
         type: string;
         placeholder?: string;
         value?: string;
+        disabled?: boolean;
     }
 }
 
