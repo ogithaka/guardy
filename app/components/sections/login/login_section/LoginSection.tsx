@@ -6,7 +6,10 @@ export default function LoginSection() {
             id='login'
             className={LoginSectionStyles.LoginSection}
         >
-            <h1>Welcome back! Log in.</h1>
+            <div className={LoginSectionStyles.LoginTextual}>
+                <h1>Welcome back!</h1>
+                <p>Login to your account to continue.</p>
+            </div>
             <Form>
                 <InputField
                     label='Email'
