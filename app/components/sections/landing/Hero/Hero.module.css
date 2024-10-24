@@ -16,6 +16,7 @@
     justify-content: center;
     height: auto;
     overflow: hidden;
+    border-radius: 32px;
 }
 
 .HeroImagery img {
