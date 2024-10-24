@@ -15,11 +15,13 @@
     align-items: center;
     justify-content: center;
     height: auto;
+    overflow: hidden;
 }
 
 .HeroImagery img {
-    width: 100%;
+    /* width: 100%; */
     height: auto;
+    object-fit: cover;
 }
 
 .HeroTextuals {
@@ -48,5 +50,6 @@
         align-items: flex-start;
         justify-content: center;
         width: 100%;
+        height: auto;
     }
 }
