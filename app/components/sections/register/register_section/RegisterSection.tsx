@@ -27,12 +27,6 @@ export default function RegisterSection() {
                     id='password'
                 />
                 <InputField
-                    label='Confirm Password'
-                    type='password'
-                    placeholder='e.g dR87435'
-                    id='confirm_password'
-                />
-                <InputField
                     type='submit'
                     value='Register'
                 />
