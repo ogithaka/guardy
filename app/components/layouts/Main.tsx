@@ -1,3 +1,5 @@
+import { MainStyles } from '@layoutsStyles';
+
 export default function Main() {
-    return <main></main>;
+    return <main className={MainStyles.Main}></main>;
 }
