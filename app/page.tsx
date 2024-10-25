@@ -1,4 +1,4 @@
-import { Footer, Header, Main } from '@layouts';
+import { Footer, Header, Main } from '@layoutsComponents';
 
 export default function Landing() {
     return (
