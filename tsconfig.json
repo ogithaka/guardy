@@ -19,7 +19,7 @@
             }
         ],
         "paths": {
-            "@layouts": ["./app/exports/layouts.ts"],
+            "@layouts": ["./app/exports/components/layouts.ts"],
             "@/*": ["./*"]
         }
     },
