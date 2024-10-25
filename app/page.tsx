@@ -1,3 +1,4 @@
+import { Hero } from '@landingViews';
 import { Footer, Header, Main } from '@layoutsComponents';
 import { Button, NavigationItem } from '@sharedComponents';
 
@@ -19,7 +20,9 @@ export default function Landing() {
                     name='Account'
                 />
             </Header>
-            <Main />
+            <Main>
+                <Hero />
+            </Main>
             <Footer />
         </>
     );

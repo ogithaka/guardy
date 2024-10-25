@@ -1,9 +1,8 @@
 .Main {
     display: flex;
-    flex-grow: 1;
     width: 100%;
-    min-height: calc(100vh - 75px - 75px - 1px);
-    max-height: fit-content;
+    gap: 64px;
+    flex-grow: 1;
 }
 
 @media (min-width: 0px) and (max-width: 384px) {

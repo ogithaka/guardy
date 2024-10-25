@@ -1,10 +1,10 @@
 import { ButtonStyles } from '@sharedStyles';
 import Link from 'next/link';
 
-export default function Button({ url, name }: ButtonProps) {
+export default function Button({ url, name, style }: ButtonProps) {
     return (
         <Link
-            className={ButtonStyles.Button}
+            className={style ? `${style}` : ButtonStyles.Button}
             href={url}
         >
             {name}

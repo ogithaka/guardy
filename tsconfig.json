@@ -24,6 +24,8 @@
             "@sharedComponents": ["./app/exports/components/shared.ts"],
             "@sharedStyles": ["./app/exports/styles/shared.ts"],
             "@fonts": ["./app/exports/fonts.ts"],
+            "@landingViews": ["./app/exports/components/landing.ts"],
+            "@landingViewsStyles": ["./app/exports/styles/landing.ts"],
             "@/*": ["./*"]
         }
     },

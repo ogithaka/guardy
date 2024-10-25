@@ -20,6 +20,10 @@ declare global {
         url: string;
         name: string;
         active?: boolean;
+        style?: string;
+    }
+    interface MainProps {
+        children: ReactNode;
     }
 }
 
