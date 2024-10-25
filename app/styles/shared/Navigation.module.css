@@ -43,7 +43,7 @@
     }
     .NavigationDropdown {
         position: absolute;
-        top: calc(75px - 1px);
+        top: calc(75px + 1px);
         width: 75vw;
         height: calc(100vh - 75px - 32px - 1px);
         display: flex;
@@ -58,5 +58,7 @@
         z-index: 1;
         overflow-y: auto;
         border-left: 1px solid rgba(0, 0, 0, 0.05);
+        background-color: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
     }
 }
