@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './styles/global/globals.css';
+import { albertSans } from '@fonts';
 
 export const metadata: Metadata = {
     title: 'Guardy',
@@ -12,7 +13,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang='en'>
-            <body>{children}</body>
+            <body className={albertSans.className}>{children}</body>
         </html>
     );
 }
