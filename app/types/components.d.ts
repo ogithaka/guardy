@@ -16,6 +16,11 @@ declare global {
         name: string;
         active?: boolean;
     }
+    interface ButtonProps {
+        url: string;
+        name: string;
+        active?: boolean;
+    }
 }
 
 export {};

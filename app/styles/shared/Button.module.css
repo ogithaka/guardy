@@ -1,0 +1,14 @@
+.Button {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 8px;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .Button {
+        width: calc(100% - 16px);
+    }
+}
