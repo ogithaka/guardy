@@ -1,11 +1,11 @@
 import { HeaderStyles } from '@layoutsStyles';
-import { Brand } from '@sharedComponents';
+import { Brand, Navigation } from '@sharedComponents';
 
 export default function Header({ children }: HeaderProps) {
     return (
         <header className={HeaderStyles.Header}>
             <Brand />
-            {children}
+            <Navigation>{children}</Navigation>
         </header>
     );
 }
