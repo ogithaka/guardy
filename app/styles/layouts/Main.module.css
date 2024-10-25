@@ -2,7 +2,7 @@
     display: flex;
     flex-grow: 1;
     width: 100%;
-    min-height: 150px;
+    min-height: calc(100vh - 75px - 75px);
     max-height: fit-content;
 }
 
