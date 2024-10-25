@@ -1,3 +1,5 @@
+import { HeaderStyles } from '@layoutsStyles';
+
 export default function Header() {
-    return <header></header>;
+    return <header className={HeaderStyles.Header}></header>;
 }
