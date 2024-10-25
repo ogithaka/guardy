@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "target": "ES2017",
         "lib": ["dom", "dom.iterable", "esnext"],
         "allowJs": true,
         "skipLibCheck": true,
@@ -18,11 +19,15 @@
             }
         ],
         "paths": {
-            "@components": ["./app/components/components.ts"],
-            "@fonts": ["./app/components/utils/fonts.ts"],
+            "@layoutsComponents": ["./app/exports/components/layouts.ts"],
+            "@layoutsStyles": ["./app/exports/styles/layouts.ts"],
+            "@sharedComponents": ["./app/exports/components/shared.ts"],
+            "@sharedStyles": ["./app/exports/styles/shared.ts"],
+            "@fonts": ["./app/exports/fonts.ts"],
+            "@landingViews": ["./app/exports/components/landing.ts"],
+            "@landingViewsStyles": ["./app/exports/styles/landing.ts"],
             "@/*": ["./*"]
-        },
-        "target": "ES2017"
+        }
     },
     "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
     "exclude": ["node_modules"]

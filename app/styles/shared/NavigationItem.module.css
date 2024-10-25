@@ -1,0 +1,23 @@
+.NavigationItem,
+.NavigationItemActive {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.NavigationItemActive {
+    font-weight: 600;
+}
+
+.NavigationItem:hover,
+.NavigationItemActive:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .NavigationItem,
+    .NavigationItemActive {
+        width: calc(100% - 16px);
+    }
+}

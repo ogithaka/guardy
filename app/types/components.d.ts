@@ -1,6 +1,10 @@
 import { ReactNode } from 'react';
 
 declare global {
+    interface LogoProps {
+        width: number;
+        height: number;
+    }
     interface HeaderProps {
         children: ReactNode;
     }
@@ -12,24 +16,14 @@ declare global {
         name: string;
         active?: boolean;
     }
-    interface MainProps {
-        children: ReactNode;
-    }
     interface ButtonProps {
         url: string;
         name: string;
-        outline?: boolean;
+        active?: boolean;
+        style?: string;
     }
-    interface FormProps {
+    interface MainProps {
         children: ReactNode;
-    }
-    interface InputFieldProps {
-        id?: string;
-        label?: string;
-        type: string;
-        placeholder?: string;
-        value?: string;
-        disabled?: boolean;
     }
 }
 

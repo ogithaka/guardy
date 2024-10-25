@@ -1,16 +1,6 @@
-import {
-    Button,
-    Footer,
-    Header,
-    Hero,
-    Main,
-    NavigationItem,
-} from '@components';
-import type { Metadata } from 'next';
-
-export const metadata: Metadata = {
-    title: 'Guardy',
-};
+import { Hero } from '@landingViews';
+import { Footer, Header, Main } from '@layoutsComponents';
+import { Button, NavigationItem } from '@sharedComponents';
 
 export default function Landing() {
     return (
@@ -26,8 +16,8 @@ export default function Landing() {
                     name='Docs'
                 />
                 <Button
+                    url=''
                     name='Account'
-                    url='/login'
                 />
             </Header>
             <Main>
