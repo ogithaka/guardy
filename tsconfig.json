@@ -22,6 +22,7 @@
             "@layoutsComponents": ["./app/exports/components/layouts.ts"],
             "@layoutsStyles": ["./app/exports/styles/layouts.ts"],
             "@sharedComponents": ["./app/exports/components/shared.ts"],
+            "@sharedStyles": ["./app/exports/styles/shared.ts"],
             "@/*": ["./*"]
         }
     },
