@@ -30,6 +30,8 @@
             "@othersStyles": ["./app/exports/styles/others.ts"],
             "@login": ["./app/login/exports/views.ts"],
             "@loginStyles": ["./app/login/exports/styles.ts"],
+            "@register": ["./app/register/exports/views.ts"],
+            "@registerStyles": ["./app/register/exports/styles.ts"],
             "@/*": ["./*"]
         }
     },

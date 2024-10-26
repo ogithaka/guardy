@@ -25,6 +25,14 @@
     background-color: black;
     color: white;
     font-weight: 600;
+    width: 50%;
+}
+
+.InputField {
+    width: 100%;
+}
+.InputField input {
+    width: calc(100% - 16px);
 }
 
 .InputField input[type='submit']:hover {
