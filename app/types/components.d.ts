@@ -25,6 +25,16 @@ declare global {
     interface MainProps {
         children: ReactNode;
     }
+    interface FormProps {
+        children: ReactNode;
+    }
+    interface InputFieldProps {
+        id?: string;
+        label?: string;
+        type: string;
+        value?: string;
+        placeholder?: string;
+    }
 }
 
 export {};

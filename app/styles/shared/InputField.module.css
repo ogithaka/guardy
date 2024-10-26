@@ -1,0 +1,32 @@
+.InputField {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
+}
+
+.InputField label {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.InputField input {
+    padding: 8px;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+.InputField input:focus {
+    outline: 2px solid black;
+}
+
+.InputField input[type='submit'] {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+.InputField input[type='submit']:hover {
+    cursor: pointer;
+}

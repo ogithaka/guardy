@@ -28,6 +28,8 @@
             "@landingViewsStyles": ["./app/exports/styles/landing.ts"],
             "@others": ["./app/exports/components/others.ts"],
             "@othersStyles": ["./app/exports/styles/others.ts"],
+            "@login": ["./app/login/exports/views.ts"],
+            "@loginStyles": ["./app/login/exports/styles.ts"],
             "@/*": ["./*"]
         }
     },
