@@ -26,6 +26,8 @@
             "@fonts": ["./app/exports/fonts.ts"],
             "@landingViews": ["./app/exports/components/landing.ts"],
             "@landingViewsStyles": ["./app/exports/styles/landing.ts"],
+            "@others": ["./app/exports/components/others.ts"],
+            "@othersStyles": ["./app/exports/styles/others.ts"],
             "@/*": ["./*"]
         }
     },
