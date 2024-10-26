@@ -1,24 +1,24 @@
-import { LoginStyles } from '@loginStyles';
+import { RecoverStyles } from '@recoverStyles';
 import { Form, InputField } from '@sharedComponents';
 import Image from 'next/image';
 
-export default function Login() {
+export default function Recover() {
     return (
         <section
-            id='login'
-            className={LoginStyles.Login}
+            id='Recover'
+            className={RecoverStyles.Recover}
         >
-            <div className={LoginStyles.LoginImagery}>
+            <div className={RecoverStyles.RecoverImagery}>
                 <Image
                     src={'/images/login.jpg'}
-                    alt='Login Image'
+                    alt='Recover Image'
                     width={1000}
                     height={667}
                 />
             </div>
-            <div className={LoginStyles.LoginForm}>
+            <div className={RecoverStyles.RecoverForm}>
                 <Form>
-                    <h1>Login</h1>
+                    <h1>Recover</h1>
                     <InputField
                         type='email'
                         id='email'
@@ -26,14 +26,8 @@ export default function Login() {
                         placeholder='e.g john@gmail.com'
                     />
                     <InputField
-                        type='password'
-                        id='password'
-                        label='Password'
-                        placeholder='e.g d3A97Dm&!Et'
-                    />
-                    <InputField
                         type='submit'
-                        value='Login'
+                        value='Recover'
                     />
                 </Form>
             </div>

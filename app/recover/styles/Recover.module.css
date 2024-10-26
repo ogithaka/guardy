@@ -1,4 +1,4 @@
-.Register {
+.Recover {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -8,33 +8,33 @@
     min-height: 700px;
 }
 
-.RegisterImagery {
+.RecoverImagery {
     max-width: 60%;
 }
 
-.RegisterImagery img {
+.RecoverImagery img {
     width: 100%;
     height: auto;
     border-radius: 32px;
 }
 
-.RegisterForm {
+.RecoverForm {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
 }
 
-.RegisterForm h1 {
+.RecoverForm h1 {
     font-size: 24px;
     font-weight: 900;
 }
 
-.RegisterForm form {
+.RecoverForm form {
     padding: 32px;
     border-radius: 36px;
     width: calc(100% - 64px - 4px);
-    min-width: 225px;
+
     max-width: fit-content;
     display: flex;
     flex-direction: column;
@@ -42,26 +42,27 @@
     justify-content: center;
 }
 
-.RegisterForm form:hover {
+.RecoverForm form:hover {
     background-color: rgba(0, 0, 0, 0.025);
 }
 
 @media (min-width: 0px) and (max-width: 768px) {
-    .Register {
+    .Recover {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 32px;
     }
-    .RegisterImagery {
+    .RecoverImagery {
         max-width: 100%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
+        width: 100%;
     }
-    .RegisterForm {
+    .RecoverForm {
         width: 100%;
         display: flex;
         flex-direction: column;

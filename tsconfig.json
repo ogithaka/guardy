@@ -32,6 +32,8 @@
             "@loginStyles": ["./app/login/exports/styles.ts"],
             "@register": ["./app/register/exports/views.ts"],
             "@registerStyles": ["./app/register/exports/styles.ts"],
+            "@recover": ["./app/recover/exports/views.ts"],
+            "@recoverStyles": ["./app/recover/exports/styles.ts"],
             "@/*": ["./*"]
         }
     },

@@ -18,7 +18,7 @@ export default function Register() {
             </div>
             <div className={RegisterStyles.RegisterForm}>
                 <Form>
-                    <h1>Welcome to Guardy!</h1>
+                    <h1>Register</h1>
                     <InputField
                         type='email'
                         id='email'
